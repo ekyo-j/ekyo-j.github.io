@@ -1,4 +1,5 @@
 # Site
+url: "https://ekyo-j.github.io"
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
@@ -6,9 +7,9 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Leekyo Jeong
+title: Ph.D. Candidate
+email: leekyoj@kaist.ac.kr
 # email_title: Email (Email title override)
 phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)

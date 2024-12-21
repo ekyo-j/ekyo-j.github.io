@@ -51,18 +51,18 @@ googlescholar_username: VATJzIcAAAAJ&hl=ko&oi=ao
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: /images/lk_profile_2.jpg
-about_content: | test_leekyo # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/lk_profile_2.jpg "Trees")
+about_profile_image: /images/lk_profile.png
+about_content: >
+  I am a Ph.D. student at <a href="https://mo.kaist.ac.kr/en/">the CCS Graduate School of Mobility, KAIST,</a>
+  specializing in <mark>the optimal design of electric vehicle components using deep learning and multi-physics simulations.</mark>
+  My research spans topics such as metasurface design for electromagnetic wave absorption 
+  and cooling channel optimization for EV batteries, combining physics-based modeling and machine learning techniques.
+  With a strong academic foundation—M.S. in Physics from UNIST and B.S. in Physics from Pusan National University.
+  My previous work includes FDTD simulations, genetic algorithms, and the development of deep learning frameworks for physical systems.
+  Outside of academia, I am passionate about leveraging technology to solve real-world problems in mobility and materials science.
+#![alt text](/images/lk_profile_2.jpg "Trees")
 
 content:
-
   - title: Experience
     layout: list
     content:
@@ -86,7 +86,7 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-    - title: Projects # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left

@@ -1,5 +1,5 @@
 # Site
-url: "https://leekyoj.github.io"
+url: "https://leekyoj.github.io/"
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
@@ -32,7 +32,7 @@ xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
 orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+googlescholar_username: VATJzIcAAAAJ&hl=ko&oi=ao
 
 # Additional icon links
 additional_links:

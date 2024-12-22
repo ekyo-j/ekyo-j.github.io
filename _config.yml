@@ -31,7 +31,7 @@ darkmode: false
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
-orcid_username: 0000-0001-7909-4406
+# orcid_username: 0000-0001-7909-4406
 googlescholar_username: VATJzIcAAAAJ&hl=ko&oi=ao
 
 # Additional icon links
@@ -62,50 +62,116 @@ about_content: >
   Outside of academia, I am passionate about leveraging technology to solve real-world problems in mobility and materials science.
 #![alt text](/images/lk_profile_2.jpg "Trees")
 
+
 content:
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+        title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: Ph.D. Student in CCS Graduate School of Mobility
+        caption: 2024 - Present
+      - layout: top-right
+        title: Ulsan National Institute of Science & Technology (UNIST)
+        sub_title: M.S. in Physics
+        caption: 2019
+      - layout: top-right
+        title: Pusan National University
+        sub_title: B.S. in Physics
+        caption: 2016
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-right
+        title: Center for Advanced Meta-materials <br>(파동에너지극한제어연구단)
+        sub_title: Researcher
+        caption: 2019 - 2023
+        link: http://camm.re.kr
+  - title: Publications
+    layout: list
+    content:
+      - layout: top-middle
+        title: Novel method of performance-optimized metastructure design for electromagnetic wave absorption in specific band using deep learning
+        sub_title: Engineering Applications of Artificial Intelligence 137, 109274
+        caption: 
+        link: https://doi.org/10.1016/j.engappai.2024.109274
+      - layout: top-middle
+        title: Optimal design of microwave absorber using novel variational autoencoder from a latent space search strategy
+        sub_title: Materials & Design 212, 110266
+        caption: 
+        link: https://doi.org/10.1016/j.matdes.2021.110266
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        # border: weak
+        title: Deep Learning-Based Electromagnetic Metasurface Design
+        link: https://example.com/project1
+        link_text: View Project
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github Repository
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/example/project1
+          - title: Research Paper
+            icon: fas fa-file-alt
+            url: https://doi.org/10.1016/j.matdes.2021.110266
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Designed electromagnetic metasurfaces using Variational Autoencoders and CNN models.
+        description: |
+          Developed and validated high-performance metasurface designs using machine learning techniques, resulting in published research in a high-impact journal.
+
+      - layout: left
+        # border: weak
+        title: Optimal Design of EV Battery Cooling Channels
+        link: https://example.com/project2
+        link_text: Explore Details
+        additional_links:
+          - title: Project Presentation
+            icon: fas fa-slideshare
+            url: https://example.com/presentation
+          - title: Github Repository
+            icon: fab fa-github
+            url: https://github.com/example/project2
+        quote: >
+          Created multi-physics simulation models to optimize battery thermal and structural performance.
+        description: |
+          Focused on improving EV battery efficiency by integrating thermal and mechanical analysis with optimization algorithms.
+
+      - layout: left
+        # border: weak
+        title: Genetic Algorithm-Based Metasurface Optimization
+        link: https://example.com/project3
+        link_text: Learn More
+        additional_links:
+          - title: Github Repository
+            icon: fab fa-github
+            url: https://github.com/example/project3
+          - title: Code Documentation
+            icon: fas fa-code
+            url: https://example.com/documentation
+        quote: >
+          Applied genetic algorithms to optimize metasurface designs for high efficiency.
+        description: |
+          Developed custom Python-based frameworks for high-speed simulation and optimization of electromagnetic absorbers.
+
+      - layout: left
+        # border: weak
+        title: 5G Transmissive Metasurface Design
+        link: https://example.com/project4
+        link_text: View Project
+        additional_links:
+          - title: Github Repository
+            icon: fab fa-github
+            url: https://github.com/example/project4
+          - title: Research Presentation
+            icon: fas fa-presentation
+            url: https://example.com/research-presentation
+        quote: >
+          Designed and optimized transmissive metasurfaces for 5G applications using Python-based FDTD and genetic algorithms.
+        description: |
+          Combined advanced simulation tools and optimization techniques to enhance performance of metasurface-based 5G communication systems.
+
+
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs

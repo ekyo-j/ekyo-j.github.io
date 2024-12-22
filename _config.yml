@@ -53,13 +53,10 @@ googlescholar_username: VATJzIcAAAAJ&hl=ko&oi=ao
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/lk_profile.png
 about_content: >
-  I am a Ph.D. student at <a href="https://mo.kaist.ac.kr/en/">the CCS Graduate School of Mobility, KAIST,</a>
-  specializing in <mark>the optimal design of electric vehicle components using deep learning and multi-physics simulations.</mark>
-  My research spans topics such as metasurface design for electromagnetic wave absorption 
-  and cooling channel optimization for EV batteries, combining physics-based modeling and machine learning techniques.
-  With a strong academic foundation—M.S. in Physics from UNIST and B.S. in Physics from Pusan National University.
-  My previous work includes FDTD simulations, genetic algorithms, and the development of deep learning frameworks for physical systems.
-  Outside of academia, I am passionate about leveraging technology to solve real-world problems in mobility and materials science.
+  I am a Ph.D. student at <a href="https://mo.kaist.ac.kr/en/">the CCS Graduate School of Mobility, KAIST</a>, focusing on <strong>the optimal design of electric vehicle components using deep learning and multi-physics simulations.</strong>
+  My research combines physics-based modeling with deep learning techniques, leveraging state-of-the-art models. I have a strong background in physics, having earned an M.S. in Physics from UNIST and a B.S. in Physics from Pusan National University.
+  My previous work includes FDTD simulations, genetic algorithms, and the development of deep learning frameworks for physical systems, primarily applied to military technologies.
+  I am driven by a passion for advancing technology to address real-world challenges, particularly through innovative deep learning methodologies.
 #![alt text](/images/lk_profile_2.jpg "Trees")
 
 
@@ -68,108 +65,162 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Korea Advanced Institute of Science and Technology (KAIST)
-        sub_title: Ph.D. Student in CCS Graduate School of Mobility
+        title: Korea Advanced Institute of Science and Technology
+        sub_title: 'Ph.D. Student in CCS Graduate School of Mobility <br> Advisor : <a href="https://www.smartdesignlab.org/">Namwoo Kang</a>'
         caption: 2024 - Present
       - layout: top-right
-        title: Ulsan National Institute of Science & Technology (UNIST)
-        sub_title: M.S. in Physics
+        title: Ulsan National Institute of Science and Technology
+        sub_title: 'M.S. in Physics  <br> Advisor : <a href="https://sophy.unist.ac.kr/">Joonwoo Jeong</a>'
         caption: 2019
       - layout: top-right
         title: Pusan National University
         sub_title: B.S. in Physics
         caption: 2016
+
   - title: Experience
     layout: list
     content:
       - layout: top-right
         title: Center for Advanced Meta-materials <br>(파동에너지극한제어연구단)
-        sub_title: Researcher
+        sub_title: Researcher (Alternative military service)
         caption: 2019 - 2023
         link: http://camm.re.kr
+
   - title: Publications
     layout: list
     content:
-      - layout: top-middle
-        title: Novel method of performance-optimized metastructure design for electromagnetic wave absorption in specific band using deep learning
-        sub_title: Engineering Applications of Artificial Intelligence 137, 109274
-        caption: 
+      - layout: left
+        title: 
+        sub_title: Engineering Applications of Artificial Intelligence 137, 109274, (2024)
+        caption :
         link: https://doi.org/10.1016/j.engappai.2024.109274
-      - layout: top-middle
-        title: Optimal design of microwave absorber using novel variational autoencoder from a latent space search strategy
-        sub_title: Materials & Design 212, 110266
+        link_text: Click to full contents..
+        description: |
+         <a href="https://doi.org/10.1016/j.engappai.2024.109274">Novel method of performance-optimized metastructure design for electromagnetic wave absorption in specific band using deep learning
+         <br>
+         <br>
+         ![alt text](/images/eaai_2024.png "EAAI-2024")
+      - layout: left
+        title: 
+        sub_title: Materials & Design 212, 110266, (2021)
         caption: 
         link: https://doi.org/10.1016/j.matdes.2021.110266
+        description: |
+         <a href="https://doi.org/10.1016/j.matdes.2021.110266">Optimal design of microwave absorber using novel variational autoencoder from a latent space search strategy
+         <br>
+         <br>
+         ![alt text](/images/material_and_design.jpg "MATDES-2021")
+        link_text: Click to full contents..
+      - layout: top-middle
+        link: https://scholar.google.com/citations?hl=ko&user=VATJzIcAAAAJ&view_op=list_works&gmla=AFix5MYBa70sdgxhV241_ArE4SgzLwxjTP42R-58pGD736Bi5dQ8g75Ot2ry7OA6yIVixxl4_j2-uGYQ0TANBw3Jk_upys6OKFLM4Ivh_mKUJXCH-SpUyWQgNQ
+        link_text: Click to other liturature of Leekyo on Google Scholar !
+
+  - title: Patents
+    layout: list
+    content:
+      - layout: left
+        title: |
+            <span class="project-title">
+            - 5g band transmissive body and window assembly including the same </span>
+        link_text: View Patent Details..
+        link : https://patents.google.com/patent/US20240283151A1/en
+        description: |
+          A 5G band transmissive body features a conductive, symmetric pattern on a substrate designed to transmit 5G communication frequencies.
+      - layout: left
+        title: |
+            <span class="project-title">
+            - 전자기파 흡수를 위한 투명 필름 구조체 <br>
+              TRANSPARENT FILM STRUCTURE FOR ABSORBING ELECTROMAGNETIC WAVE </span>
+        link_text: View Patent Details..
+        link : https://doi.org/10.8080/1020220173136
+        description: |
+          A transparent film structure for electromagnetic wave absorption features, low production cost, a conductive pattern on one side, and a reflective layer on the other.
+      - layout: left
+        title: |
+            <span class="project-title">
+            - 안테나 회전 이동이 가능한 전자파 특성 측정장치<br>
+              APPARATUS FOR MEASURING ELECTROMAGNETIC WAVE CHARACTERISTIC CAPABLE OF ANTENNA ROTATION MOVEMENT</span>
+        link_text: View Patent Details..
+        link : https://doi.org/10.8080/1020220173131
+        description: |
+          An electromagnetic characteristic measurement device with two movable antennas on a circular rail, enabling the measurement of reflectance, transmittance, and S-parameters based on the angle of incidence.
+      - layout: left
+        title: |
+            <span class="project-title">
+            - 광대역 메타물질 흡수체<br>
+              BROADBAND METAMATERIAL ABSORBER</span>
+        link_text: View Patent Details..
+        link : https://doi.org/10.8080/1020200125092
+        description: |
+          A broadband metamaterial absorber with S ~ Ka band absorption, featuring a layered structure of dielectrics, conductive patterns, and a reflective layer for enhanced performance.
+      - layout: left
+        title: |
+            <span class="project-title">
+            - 구조체<br>
+              STRUCTURE</span>
+        link_text: View Patent Details..
+        link : https://doi.org/10.8080/1020210177684
+        description: |
+          A structure with high visible light transmittance, 5G communication band transparency, and heating functionality, featuring a substrate with patterned cells composed of unit grids with slots.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        # border: weak
-        title: Deep Learning-Based Electromagnetic Metasurface Design
-        link: https://example.com/project1
-        link_text: View Project
-        additional_links:
-          - title: Github Repository
-            icon: fab fa-github
-            url: https://github.com/example/project1
-          - title: Research Paper
-            icon: fas fa-file-alt
-            url: https://doi.org/10.1016/j.matdes.2021.110266
-        quote: >
-          Designed electromagnetic metasurfaces using Variational Autoencoders and CNN models.
+      - layout: left2
+        title: |
+          <span class="project-title">
+            - Development of Generative Manufacturing Technologies to Turn Ideas into Reality<br>
+            (아이디어를 현실로 만드는 Generative Manufacturing 기술개발)
+          </span>
         description: |
-          Developed and validated high-performance metasurface designs using machine learning techniques, resulting in published research in a high-impact journal.
+          Contributed as a researcher in 2024 to <strong>the Industrial Alchemist Project</strong>, focusing on developing a platform that simplifies product design and manufacturing through advanced AI-driven technologies, enabling seamless transformation from ideas to production.
+        quote: >
+          This project was supported by MOTIE <br> (산업통상자원부).
+      - layout: left2
+        title: |
+          <span class="project-title">
+            - Flare tower design based on deep learning<br>
+            (Flare tower를 위한 딥러닝기반 최적 설계)
+          </span>
+        description: |
+            Participated as a researcher in 2024 to create advanced methodologies for flare tower design in large ships, utilizing deep learning to address complex constraints and improve design efficiency.
+        quote: >
+          This project was supported by SHI <br> (삼성중공업).
 
-      - layout: left
-        # border: weak
-        title: Optimal Design of EV Battery Cooling Channels
-        link: https://example.com/project2
-        link_text: Explore Details
-        additional_links:
-          - title: Project Presentation
-            icon: fas fa-slideshare
-            url: https://example.com/presentation
-          - title: Github Repository
-            icon: fab fa-github
-            url: https://github.com/example/project2
+      - layout: left2
+        title: |
+          <span class="project-title">
+            - Development and Utilization of Metamaterial Engineering Design Platform <br>
+            (메타물질공학설계플랫폼 개발 및 실용화기술 개발)
+          </span>
         quote: >
-          Created multi-physics simulation models to optimize battery thermal and structural performance.
+          Developed an engineering design platform for metamaterials, supporting real-world applications and advancements in 2023.
         description: |
-          Focused on improving EV battery efficiency by integrating thermal and mechanical analysis with optimization algorithms.
+          Served as a researcher in <strong>the Global Frontier Project</strong> from 2019 to 2023, contributing to the development of a web-based platform, multi-physics simulations, and advanced optimization methods across multiple phases of the project.
+        quote: >
+          This project was supported by NRF <br> (한국연구재단).
 
-      - layout: left
-        # border: weak
-        title: Genetic Algorithm-Based Metasurface Optimization
-        link: https://example.com/project3
-        link_text: Learn More
-        additional_links:
-          - title: Github Repository
-            icon: fab fa-github
-            url: https://github.com/example/project3
-          - title: Code Documentation
-            icon: fas fa-code
-            url: https://example.com/documentation
-        quote: >
-          Applied genetic algorithms to optimize metasurface designs for high efficiency.
-        description: |
-          Developed custom Python-based frameworks for high-speed simulation and optimization of electromagnetic absorbers.
 
-      - layout: left
-        # border: weak
-        title: 5G Transmissive Metasurface Design
-        link: https://example.com/project4
-        link_text: View Project
-        additional_links:
-          - title: Github Repository
-            icon: fab fa-github
-            url: https://github.com/example/project4
-          - title: Research Presentation
-            icon: fas fa-presentation
-            url: https://example.com/research-presentation
-        quote: >
-          Designed and optimized transmissive metasurfaces for 5G applications using Python-based FDTD and genetic algorithms.
+      - layout: left2
+        title: |
+          <span class="project-title">
+            - Development of Signal Detection, Sensing, and Graphene-Based Metamaterial Manufacturing Technology <br>
+            (신호 증폭, 감쇄, 감지용 그래핀 메타물질 제조기술 개발)
+          </span>
         description: |
-          Combined advanced simulation tools and optimization techniques to enhance performance of metasurface-based 5G communication systems.
+          Conducted as a researcher in 2021 - 2023, focusing on the development of graphene-based 5G band transmissive and transparent metamaterials.
+        quote: >
+          This project was supported by COMPA <br> (과학기술사업화진흥원).
+      - layout: left2
+        title: |
+          <span class="project-title">
+            - Research on wideband low-observable UAV airframe structure technology <br>
+            (광대역 저피탐 UAV 기제구조 기술연구)
+          </span>
+        description: |
+          Conducted as a researcher in 2022 - 2023, focusing on the development of C-X band metamaterials.
+        quote: >
+          This project was supported by DAPA <br> (방위사업청).
 
 
   # - title: A Little More About Me
@@ -180,7 +231,7 @@ content:
   #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: TEST_reference (Override references text)
 
 # Build settings

@@ -132,7 +132,16 @@
     margin-bottom: 2rem;
   }
 }
-
+.layout-left2, .layout-right2 {
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+  .details {
+    width: 75%;
+    margin-bottom: 2rem;
+    padding-right: 5px; 
+  }
+}
 .layout-top-middle, .layout-top, .layout-top-right {
   flex-direction: column;
 

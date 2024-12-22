@@ -17,7 +17,7 @@ email: leekyoj@kaist.ac.kr
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
